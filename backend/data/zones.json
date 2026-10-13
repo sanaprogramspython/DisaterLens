@@ -1,0 +1,42 @@
+{
+  "note": "Illustrative demo locations only; these are not verified flood maps, evacuation advice, or surveyed routes.",
+  "coordinate_order": "latitude, longitude",
+  "flood_zone": {
+    "name": "Illustrative GNITS Flood Zone",
+    "type": "Polygon",
+    "coordinates": [
+      [17.4094, 78.3959],
+      [17.4105, 78.3953],
+      [17.4111, 78.3962],
+      [17.4102, 78.3971],
+      [17.4094, 78.3959]
+    ]
+  },
+  "safe_zone": {
+    "name": "GNITS College Auditorium",
+    "type": "Point",
+    "coordinates": [17.412, 78.399]
+  },
+  "demo_user_start": {
+    "name": "Demo User Start Point",
+    "type": "Point",
+    "coordinates": [17.4098, 78.3973]
+  },
+  "route": {
+    "estimated_walk": "8 mins",
+    "coordinates": [
+      [17.4098, 78.3973],
+      [17.4105, 78.3978],
+      [17.4112, 78.3983],
+      [17.412, 78.399]
+    ]
+  },
+  "guidance": {
+    "incident": "Major Flood",
+    "cause": "River overflow",
+    "severity": "Extreme",
+    "estimated_walk": "8 mins",
+    "what_to_take": ["Important documents", "Medication", "Water"],
+    "instruction": "DO NOT DELAY"
+  }
+}
